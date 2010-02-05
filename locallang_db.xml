@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'aware'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_aware_channels">Channels</label>
+			<label index="tx_aware_channels.name">Name</label>
+			<label index="tx_aware_channels.lifetime">Lifetime</label>
+			<label index="tx_aware_events">Events</label>
+			<label index="tx_aware_events.channel">Channel</label>
+			<label index="tx_aware_events.information">Information</label>
+			<label index="tx_aware_listeners">Listeners</label>
+			<label index="tx_aware_listeners.pointer">pointer</label>
+		</languageKey>
+	</data>
+</T3locallang>
