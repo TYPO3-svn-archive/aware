@@ -1,0 +1,13 @@
+# ***************************************************************************************
+# Extension configuration variables for 'aware'
+#
+# ***************************************************************************************
+
+  # cat=basic; type=string; label=Autogenerate 'new' events whenever records from the following tables are created.
+auto_new = tt_content,pages,tt_news
+
+  # cat=basic; type=string; label=Autogenerate 'update' events whenever records from the following tables are updated.
+auto_update = tt_content,pages,tt_news
+
+  # cat=basic; type=boolean; label=Enable Awareness Backend Module (usable for debugging)
+enable_backend = 0

@@ -1,0 +1,6 @@
+- New Extension: Auto save draft per user for tt_content, tt_news, etc.
+- user_notification: implement on tt_news records (enabled in extension manager)
+- user_notification: disable lockrecords.  implement user notification on page tree and db_list 
+- user_notification: TemplaVoila: Provide notification when a page is changed.
+- New Extension: Refresh Login to use Aware.
+ 
