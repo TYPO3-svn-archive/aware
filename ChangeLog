@@ -1,3 +1,5 @@
-2009-11-06 Morten Tranberg Hansen  <mth@cs.au.dk>
+2010-04-26  Christer
+    * Fixed bug #7470: PHP Warning in class.tx_aware_ajax.php
 
+2009-11-06 Morten Tranberg Hansen  <mth@cs.au.dk>
 	* initial code generated with kickstarter
