@@ -1,3 +1,7 @@
+2011-03-31 Mads Sandberg Brun  <msb@science.au.dk>
+	* Updated to jslang 0.0.4.
+	* Added jslang as dependency.
+
 2010-04-26  Christer
     * Fixed bug #7470: PHP Warning in class.tx_aware_ajax.php
 

@@ -48,7 +48,7 @@ Ext.ux.TYPO3.tx_aware_client = Ext.extend(Ext.util.Observable, {
             run: function(){
 
 								var params = {
-										'ajaxID': 'tx_aware_ajax::clientRequest',
+										'ajaxID': 'tx_aware_ajax::clientRequest'
 								};
 
 								var c = 0;
@@ -104,7 +104,7 @@ Ext.ux.TYPO3.tx_aware_client = Ext.extend(Ext.util.Observable, {
 
 		addEvent: function(channel, data) {
 				this.addlist[this.addlist.length] = {'channel':channel, 'data':data};
-		},	
+		}
 	
 });	
 

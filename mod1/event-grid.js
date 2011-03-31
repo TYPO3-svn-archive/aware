@@ -33,7 +33,7 @@ Ext.onReady(function(){
 		// load data from the url ( data.php )
 		store.load({ params:{
 				start: 0, 
-				limit: page_size,
+				limit: page_size
 		}});
 		
 		// create the Grid
@@ -47,13 +47,13 @@ Ext.onReady(function(){
 				stripeRows: true,
 				height:550,
 				width:700,
-				title:TYPO3.getLL('function1'),
+				title:TYPO3.jslang.getLL('function1'),
 				bbar: new Ext.PagingToolbar({
 						pageSize: page_size,
 						store: store,
 						displayInfo: true,
-						displayMsg: TYPO3.getLL('displaying_events') +' {0} - {1} ' + TYPO3.getLL('of') + ' {2}',
-						emptyMsg: TYPO3.lang.no_events,
+						displayMsg: TYPO3.jslang.getLL('displaying_events') +' {0} - {1} ' + TYPO3.jslang.getLL('of') + ' {2}',
+						emptyMsg: TYPO3.jslang.getLL('no_events')
 				})
 		});
 		

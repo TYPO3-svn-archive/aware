@@ -52,7 +52,7 @@ class tx_aware_ajax {
 		// get events
 		$channels = t3lib_div::_GET('channels');
 		$events = array();
-		if (!empty($channels)) {		
+		if (is_array($channels)) {
 			foreach($channels as $channel) {
 				$events = array_merge($events, tx_aware::getEvents($channel));
 			}

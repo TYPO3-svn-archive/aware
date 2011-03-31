@@ -94,7 +94,7 @@ class  tx_aware_module1 extends t3lib_SCbase {
 				
 						// initialize doc
 					$this->doc = t3lib_div::makeInstance('template');
-					$this->doc->setModuleTemplate(t3lib_extMgm::extPath('aware') . 'mod1//mod_template.html');
+					$this->doc->setModuleTemplate(t3lib_extMgm::extPath('aware') . 'mod1/mod_template.html');
 					$this->doc->backPath = $BACK_PATH;
 					$this->doc->getPageRenderer()->loadExtJS();
 
